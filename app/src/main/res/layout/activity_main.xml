@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.abner.ming.base.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <TextView
+        app:layout_marginTopPercent="50%"
+        app:layout_marginLeftPercent="30%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+</com.abner.ming.base.percent.PercentRelativeLayout>
